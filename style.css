@@ -1,14 +1,15 @@
-.cat-container{
-    display: flex 1 1 100%;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 2em;
-    align-items: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
     max-width: 100%;
 }
 
-.cat-breed{
+.cat-container{
     display: flex;
     flex-direction: 1 1 300px;
     margin: 1em;
@@ -19,6 +20,16 @@
     text-align: center;
     transition: 0.3s;
     transform: scale(1.05);
+}
+
+.cat-breed{
+    display: flex 1 1 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2em;
+    align-items: center;
+    max-width: 100%;
 }
 
 img{
@@ -33,4 +44,5 @@ h3{
 
 p{
     margin: 0.5em 0 1em;
+    font-weight: 600;
 }
