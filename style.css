@@ -1,8 +1,11 @@
 .cat-container{
-    display: flex;
+    display: flex 1 1 100%;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 2em;
+    align-items: center;
+    max-width: 100%;
 }
 
 .cat-breed{
@@ -15,6 +18,7 @@
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     text-align: center;
     transition: 0.3s;
+    transform: scale(1.05);
 }
 
 img{
