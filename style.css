@@ -61,6 +61,17 @@ button{
     border: none;
     cursor: pointer;
 }
-@media screen {
-    
+@media screen (max-width: 1000px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cat-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        align-items: center;
+    }
 }
