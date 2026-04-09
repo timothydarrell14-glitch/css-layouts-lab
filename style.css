@@ -31,6 +31,9 @@ body{
     align-items: center;
     max-width: 100%;
 }
+.cat-breed:hover{
+    transform: scale(1.05);
+}
 
 img{
     max-width: 100%;
